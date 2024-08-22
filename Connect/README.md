@@ -25,6 +25,6 @@ A custom URL example with the Salesforce connector:
   checksum: 1f4e448a6f1d3a6e3280de148562218dd970b2e9d4b2669b8775db08a5bd201a078186bd6aab3c217c8dd30c6c7d6c59721382aac3c18dfb9f91d400d49f6a94
 ```
 
-* Deploy the Connect cluster via `kubectl apply -f .Connect/connect.yaml -n confluent`
+* Deploy the Connect cluster via `kubectl apply -f ./Connect/connect.yaml -n confluent`
 * Port forward connect and check if plugins are existing
 `curl -s -XGET http://localhost:8083/connector-plugins | jq '.[].class'`

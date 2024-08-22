@@ -35,7 +35,7 @@ kubectl apply -f ./SchemaRegistry/schema.yaml -n confluent
 ```
 
 > [!NOTE]
-> Unfortunately, it is not possible as of today (August 2024)
+> Unfortunately, it is not possible as of today (August 2024).
 > We receive the following error in the CFK operator logs:
 > ```
 > {"level":"ERROR","time":"2024-08-22T12:18:15.568Z","name":"schema","caller":"log/log.go:35","msg":"error creating schema","name":"sensor-value" [...]

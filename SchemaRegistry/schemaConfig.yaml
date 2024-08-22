@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: schema-config
+  namespace: confluent
+data:
+ schema: |
+  {
+    "type": "record",
+    "name": "SensorData",
+    "namespace": "com.pneffExample",
+    "fields": [
+      {"name": "sensorId", "type": "string"},
+      {"name": "type", "type": "string"},
+      {"name": "value", "type": "float"},
+      {"name": "unit", "type": "string"},
+      {"name": "timestamp","type": "string"}
+      ]
+   }
+  properties: {"owner": "Patrick Neff","email": "pneff@confluent.io"}

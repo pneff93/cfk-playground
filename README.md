@@ -1,6 +1,9 @@
 # CFK Playground
 Playground repo to test different things in Confluent for Kubernetes. As of today, we test:
 
+| **Scenario**       | **Notes**                                           |
+|--------------------|-----------------------------------------------------|
+| [Connect](./Connect) | We deploy Connect with additional Connector plugins |
 
 ## Setup:
 * [Quickstart: Deploy an Azure Kubernetes Service (AKS) cluster using Azure portal](https://learn.microsoft.com/en-us/azure/aks/learn/quick-kubernetes-deploy-portal?tabs=azure-cli)

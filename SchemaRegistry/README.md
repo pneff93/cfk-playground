@@ -34,7 +34,7 @@ kubectl apply -f ./SchemaRegistry/schemaConfig.yaml -n confluent
 kubectl apply -f ./SchemaRegistry/schema.yaml -n confluent
 ```
 
-> [!Notes]
+> [!NOTE]
 > Unfortunately, it is not possible as of today (August 2024)
 > We receive the following error in the CFK operator logs:
 > ```
